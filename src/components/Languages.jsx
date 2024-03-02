@@ -7,7 +7,7 @@ const Languages = () => {
     <div>
         <h3 className='text-text1 p-gradient uppercase text-sm sm:text-base md:text-xl lg:text-2xl mt-3'>LANGUAGES</h3>
         <ScrollContainer 
-          className='mt-10 flex gap-5 overflow-x-auto hide-scrollbar'
+          className='mt-10 flex sm:gap-5 gap-3 overflow-x-auto hide-scrollbar'
         >
           {language.map((index) => (
             <LanguageCard key={index.id} card={index} />

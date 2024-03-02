@@ -5,7 +5,7 @@ const LanguageCard = ({card}) => {
     const { title, subtitle, description, image, link } = card
   return (
     <a href={link} target="_blank">
-        <div className='flex sm:w-[413px] w-[240px] bg-container p-5 rounded-2xl hover:bg-hover1 transition duration-300 ease-in-out cursor-pointer'>
+        <div className='flex sm:w-[413px] w-[250px] bg-container p-5 rounded-2xl hover:bg-hover1 transition duration-300 ease-in-out cursor-pointer'>
             <div className='flex flex-col gap-3'>
                 <h3 className='gradient2text sm:text-2xl text-xl font-semibold'>
                     {title}

@@ -5,8 +5,8 @@ const ToolCard = ({card}) => {
   const { image, title1, title2, developer, link } = card
   return (
     <a href={link} target="_blank">
-      <div className='flex flex-col sm:w-[280px] w-[240px] bg-container rounded-2xl hover:bg-hover1 transition duration-300 ease-in-out cursor-pointer text-center'>
-          <div className='sm:w-[280px] w-[240px] text-center py-2 rounded-t-2xl bg-white gradient3'>
+      <div className='flex flex-col sm:w-[280px] w-[250px] bg-container rounded-2xl hover:bg-hover1 transition duration-300 ease-in-out cursor-pointer text-center'>
+          <div className='sm:w-[280px] w-[250px] text-center py-2 rounded-t-2xl bg-white gradient3'>
                   <h3 className='text-text2 font-semibold sm:text-lg text-base'>{title1}</h3>
           </div>
           

@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <div className='flex items-center justify-between py-4 font-semibold'>
             <div>
-                <p className='gradient2text md:text-2xl sm:text-xl text-base'>Christian</p>
+                <p className='gradient2text md:text-2xl sm:text-xl text-lg'>Christian</p>
             </div>
 
             <div className='md:flex hidden'>
