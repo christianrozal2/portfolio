@@ -44,7 +44,7 @@ const Contact = () => {
                 <label htmlFor='message'>Message</label>
                 <textarea id='message' className='border-2 border-black rounded-md p-2 text-black opacity-90'></textarea>
               </div>
-              <div className='mt-10'>
+              <div className='lg:mt-10 md:mt-8 sm:mt-7 mt-5'>
                 <Button label='Send message' imageType='email' />
               </div>
             </form>
