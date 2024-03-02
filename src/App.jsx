@@ -12,19 +12,19 @@ function App() {
         <Navbar />
       </div>
 
-      <div className="mt-10 sm:mt-16 md:mt-24 lg:mt-48 px-6 sm:px-16">
+      <div id="about" className="mt-10 sm:mt-16 md:mt-24 lg:mt-48 px-6 sm:px-16">
         <Hero />
       </div>
 
-      <div className="mt-10 sm:mt-16 md:mt-24 lg:mt-36 px-6 sm:px-16">
+      <div id="projects" className="mt-10 sm:mt-16 md:mt-24 lg:mt-36 px-6 sm:px-16">
         <Projects />
       </div>
 
-      <div className="mt-10 sm:mt-16 md:mt-24 lg:mt-36 px-6 sm:px-16">
+      <div id="tools" className="mt-10 sm:mt-16 md:mt-24 lg:mt-36 px-6 sm:px-16">
         <Tools />
       </div>
 
-      <div className="mt-10 sm:mt-16 md:mt-24 lg:mt-36 px-6 sm:px-16 background-2 pb-36">
+      <div id="contact" className="mt-10 sm:mt-16 md:mt-24 lg:mt-36 px-6 sm:px-16 background-2 pb-36">
         <Contact />
       </div>
 

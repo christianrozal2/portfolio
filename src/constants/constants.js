@@ -2,20 +2,16 @@ import { address, cap1, css, ct1, ct2, ct3, ct4, ct5, ct6, ct7, ct8, ct9, facebo
 
 export const navLinks = [
   {
-    id: "about",
+    id: "#about",
     title: "About Me",
   },
   {
-    id: "projects",
+    id: "#projects",
     title: "Projects",
   },
   {
-    id: "tools",
+    id: "#tools",
     title: "Tools",
-  },
-  {
-    id: "affiliates",
-    title: "Affiliates",
   },
 ];
 
@@ -44,25 +40,28 @@ export const capstone = [
     id: "cap1",
     title1: "Capstone 1: Frontend",
     title2: "PERSONAL PORTFOLIO",
-    content: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    content: "My portfolio showcases a modern UI/UX aesthetic featuring complex gradients and subtle shadows. It's fully responsive across devices and built with React and Tailwind CSS, prioritizing smooth user interactions and a visually engaging experience.",
     image: cap1,
-    variant: "primary"
+    variant: "primary",
+    link:"https://christianrozal2.github.io/portfolio/"
   },
   {
     id: "cap2",
     title1: "Capstone 2: Backend",
-    title2: "E-COMMERCE API MVP",
-    content: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    title2: "E-COMMERCE API",
+    content: "Robust e-commerce backend API built with Node.js, Express, and MongoDB for efficient data management. Thoroughly tested with Postman to ensure reliability and seamless integration.",
     image: cap1,
-    variant: ""
+    variant: "",
+    link: "https://ecommerce-gadgethub-api.onrender.com/"
   },
   {
     id: "cap3",
     title1: "Capstone 3: Fullstack",
-    title2: "E-COMMERCE MVP",
-    content: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    title2: "E-COMMERCE GADGET HUB",
+    content: "My MERN stack capstone project delivers a seamless user experience with its clean aesthetic, bug-free functionality, and lightning-fast performance. Built for efficiency and visual appeal.",
     image: cap1,
-    variant: "primary"
+    variant: "primary",
+    link: "https://ecommerce-gadgethub.vercel.app/"
   }, 
 ];
 
@@ -72,34 +71,38 @@ export const frontend = [
   {
     id: "p4",
     image: p4,
-    title: "#4 - New Arrival Nike Shoes",
+    title: "#4 - Wonderchat Landing",
     subtitle: "React + Tailwind CSS",
-    description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    description: "A fully responsive landing page. WonderChat lets you create a custom AI chatbot trained on your own information for immediate, personalized conversations.",
     date: "18-02-24",
+    link:"https://wonderchat-eta.vercel.app/"
   },
   {
     id: "p3",
     image: p3,
-    title: "#3 - New Arrival Nike Shoes",
+    title: "#3 - Hoobank Landing",
     subtitle: "React + Tailwind CSS",
-    description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    description: "A fully responsive landing page. Hoobank leads the way in modern payments, offering a superior alternative to traditional banking methods with its advanced technology and user-friendly approach.",
     date: "15-02-24",
+    link: "https://hoobank-five-beta.vercel.app/"
   },
   {
     id: "p2",
     image: p2,
-    title: "#2 - New Arrival Nike Shoes",
+    title: "#2 - Movie Land",
     subtitle: "React + External CSS",
-    description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    description: "A fully responsive page. MovieLand helps you find the right movie for any mood, with powerful search tools, curated recommendations, and a vast library of films to explore.",
     date: "12-02-24",
+    link: "https://movieland-one-iota.vercel.app/"
   },
   {
     id: "p1",
     image: p1,
-    title: "#1 - New Arrival Nike Shoes",
+    title: "#1 - Nike Landing",
     subtitle: "React + Tailwind CSS",
-    description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    description: "A fully responsive landing page. Discover the latest in performance footwear and apparel, fueled by decades of innovation and designed to help you reach your next level.",
     date: "09-02-24",
+    link: "https://nike-landing-one.vercel.app/"
   }
 ];
 
@@ -112,6 +115,7 @@ export const language = [
     title: "HTML",
     subtitle: "The Web's Skeleton",
     description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    link: "https://www.w3schools.com/html/html_intro.asp"
   },
   {
     id: "css",
@@ -119,6 +123,7 @@ export const language = [
     title: "CSS",
     subtitle: "The Web's Stylist",
     description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    link: "https://www.w3schools.com/css/css_intro.asp"
   },
  
   {
@@ -127,6 +132,7 @@ export const language = [
     title: "JAVASCRIPT",
     subtitle: "Making the Web Interactive",
     description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    link: "https://www.w3schools.com/js/js_intro.asp"
   }
 ];
 
@@ -138,6 +144,7 @@ export const coreTools = [
     title1: "Code Editor",
     title2: "Visual Studio Code",
     developer: "Microsoft",
+    link: "https://code.visualstudio.com/"
   },
   {
     id: "ct2",
@@ -145,6 +152,7 @@ export const coreTools = [
     title1: "Frontend Framework",
     title2: "React",
     developer: "Meta and community",
+    link: "https://react.dev/"
   },
   {
     id: "ct3",
@@ -152,6 +160,7 @@ export const coreTools = [
     title1: "CSS Framework",
     title2: "Tailwind CSS",
     developer: "Tailwind Labs",
+    link: "https://tailwindcss.com/"
   },
   {
     id: "ct8",
@@ -159,6 +168,7 @@ export const coreTools = [
     title1: "AI Assistant",
     title2: "GitHub Copilot",
     developer: "GitHub, OpenAI",
+    link: "https://github.com/features/copilot"
   },
   {
     id: "ct9",
@@ -166,6 +176,7 @@ export const coreTools = [
     title1: "Version Control",
     title2: "Git",
     developer: "Linus Torvalds, et al.",
+    link: "https://git-scm.com/"
   },
   {
     id: "ct4",
@@ -173,6 +184,7 @@ export const coreTools = [
     title1: "Database",
     title2: "MongoDB",
     developer: "MongoDB, Inc.",
+    link: "https://www.mongodb.com/"
   },
   {
     id: "ct5",
@@ -180,6 +192,7 @@ export const coreTools = [
     title1: "JavaScript Runtime",
     title2: "Node.js",
     developer: "Ryan Dahl, et al.",
+    link: "https://nodejs.org/en"
   },
   {
     id: "ct6",
@@ -187,6 +200,7 @@ export const coreTools = [
     title1: "Web App Framework",
     title2: "Express.js",
     developer: "IBM, Strongloop",
+    link: "https://expressjs.com/"
   },
   {
     id: "ct7",
@@ -194,6 +208,7 @@ export const coreTools = [
     title1: "API Testing",
     title2: "Postman",
     developer: "Abhinav Asthana, et al.",
+    link: "https://www.postman.com/"
   },
   
 ];
@@ -207,6 +222,7 @@ export const otherTools = [
     title1: "CSS Framework",
     title2: "Bootstrap",
     developer: "Bootstrap Core Team",
+    link: "https://getbootstrap.com/"
   },
   {
     id: "ot7",
@@ -214,6 +230,7 @@ export const otherTools = [
     title1: "Web Design Tool",
     title2: "Figma",
     developer: "Figma, Inc.",
+    link: "https://www.figma.com/"
   },
   {
     id: "ot2",
@@ -221,6 +238,7 @@ export const otherTools = [
     title1: "Graphic Design Tool",
     title2: "Canva",
     developer: "Canva Inc.",
+    link: "https://www.canva.com/"
   },
   {
     id: "ot3",
@@ -228,6 +246,7 @@ export const otherTools = [
     title1: "Photo Editor",
     title2: "Adobe Photoshop",
     developer: "Adobe Inc.",
+    link: "https://www.adobe.com/ph_en/products/photoshop.html"
   },
   {
     id: "ot4",
@@ -235,6 +254,7 @@ export const otherTools = [
     title1: "Video Editor",
     title2: "Adobe Premiere Pro",
     developer: "Adobe Inc.",
+    link: "https://www.adobe.com/products/premiere.html"
   },
   {
     id: "ot5",
@@ -242,6 +262,7 @@ export const otherTools = [
     title1: "Full Stack Framework",
     title2: "Next.js",
     developer: "Vercel",
+    link: "https://nextjs.org/"
   },
   {
     id: "ot6",
@@ -249,6 +270,7 @@ export const otherTools = [
     title1: "Programming language",
     title2: "Typescript",
     developer: "Microsoft",
+    link: "https://www.typescriptlang.org/"
   },
   
 ];

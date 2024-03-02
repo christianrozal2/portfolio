@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 
 const Capstone = ({card}) => {
-  const { title1, title2, content, image, variant } = card
+  const { title1, title2, content, image, variant, link } = card
 
   return (
     <div className='rounded-3xl'>
@@ -16,9 +16,11 @@ const Capstone = ({card}) => {
           </div>
           <h2 className='h-gradient font-bold text-2xl sm:text-3xl md:text-4xl mt-4 '>{title2}</h2>
           <p className='text-text1 text-sm sm:text-base md:text-xl lg:text-2xl mt-6 sm:mt-8 lg:mt-10'>{content}</p>
-          <div className='mt-5'>
-            <Button type='primary' label='Visit Site' />
-          </div>
+          <a href={link} target='_blank'>
+            <div className='mt-5'>
+              <Button type='primary' label='Visit Site' />
+            </div>
+          </a>
         </div>
       </div>
     </div>

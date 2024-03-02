@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
       <div className='flex gap-5 opacity-90'>
         {footerInfo.map((index) => (
-          <a href={index.link}>
+          <a href={index.link} target='_blank'>
             <img key={index.id} src={index.image} alt={index.id} className='size-[30px]' />
           </a>
         ))}

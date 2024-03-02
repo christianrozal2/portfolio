@@ -22,9 +22,9 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <div>
+            <a href="#contact">
                 <Button type='primary' label='Contact Me' imageType='email' />
-            </ div>
+            </ a>
 
         </div>
     )

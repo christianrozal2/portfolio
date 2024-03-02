@@ -2,9 +2,9 @@ import React from 'react'
 import { arrow } from '../assets/assets'
 
 const LanguageCard = ({card}) => {
-    const { title, subtitle, description, image } = card
+    const { title, subtitle, description, image, link } = card
   return (
-    <a href="#" target="_blank">
+    <a href={link} target="_blank">
         <div className='flex w-[413px] bg-container p-5 rounded-2xl hover:bg-hover1 transition duration-300 ease-in-out cursor-pointer'>
             <div>
                 <h3 className='gradient2text text-2xl font-semibold'>
