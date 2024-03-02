@@ -5,19 +5,19 @@ import { contactInfo } from '../constants/constants'
 
 const Contact = () => {
   return (
-    <div className='container mt-36 px-0'>
-        <h2 className='h-gradient font-bold text-2xl sm:text-3xl md:text-4xl '>CONTACT</h2>
-        <div className='mt-10 flex gap-10'>
-          <div className='w-6/12'>
-          <h3 className='text-2xl text-text1 uppercase'>Let's Connect!</h3>
-            <div className='flex gap-3 mt-10'>
-              <img src={contact} alt="contact" className='size-[200px]'/>
-                <div className='flex flex-col justify-center gap-3'>
+    <div className='container lg:mt-36 md:mt-28 sm:mt-20 mt-10 px-0'>
+        <h2 className='h-gradient font-bold md:text-4xl sm:text-3xl text-2xl'>CONTACT</h2>
+        <div className='lg:mt-10 md:mt-8 mt-7 flex gap-10 sm:flex-row flex-col'>
+          <div className='sm:w-[50%] flex flex-col sm:items-start items-center'>
+          <h3 className='text-text1 uppercase lg:text-2xl md:text-xl sm:text-lg'>Let's Connect!</h3>
+            <div className='flex md:flex-row flex-col gap-3 mt-10 sm:items-start items-center'>
+              <img src={contact} alt="contact" className='max-w-[200px] max-h-[200px]'/>
+                <div className='flex flex-col gap-3 my-auto'>
                   {contactInfo.map((index) => (
                     <div key={index} className='flex gap-3'>
                       <img src={index.image} alt={index.title} className='size-[30px]' />
                       <div className='flex flex-col gap-1'>
-                        <p className='text-lg'>{index.title}</p>
+                        <p className='md:text-lg sm:text-base text-sm'>{index.title}</p>
                       </div>
                     </div>
                   ))
@@ -26,12 +26,12 @@ const Contact = () => {
                 </div>
             </div>
             <div>
-              <h3 className='mt-10 text-text1 text-3xl italic text-center'>"Let's work together to find the perfect solution."</h3>
+              <h3 className='mt-10 text-text1 italic text-center lg:text-3xl md:text-2xl sm:text-xl text-lg'>"Let's work together to find the perfect solution."</h3>
             </div>
           </div>
-          <div className='w-6/12 '>
-            <h3 className='text-2xl text-text1 uppercase'>Message ME</h3>
-            <form className='mt-10'>
+          <div className='sm:w-[50%] '>
+            <h3 className='text-text1 uppercase lg:text-2xl md:text-xl sm:text-lg'>Message ME</h3>
+            <form className='mt-10 sm:text-base text-sm'>
               <div className='flex flex-col'>
                 <label htmlFor='name'>Name</label>
                 <input type='text' id='name' className='border-2 border-black rounded-md p-2 text-black opacity-90' />

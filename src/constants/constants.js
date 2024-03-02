@@ -71,7 +71,7 @@ export const frontend = [
   {
     id: "p4",
     image: p4,
-    title: "#4 - Wonderchat Landing",
+    title: "#4 - Wonder Chat",
     subtitle: "React + Tailwind CSS",
     description: "A fully responsive landing page. WonderChat lets you create a custom AI chatbot trained on your own information for immediate, personalized conversations.",
     date: "18-02-24",

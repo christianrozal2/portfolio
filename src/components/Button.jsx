@@ -5,9 +5,9 @@ const Button = ({type, label, imageType}) => {
     const imageSrc = imageType === 'email' ? email : external;
 
   return (
-    <button className='rounded-full py-2 md:py-3 px-10 gradient2 transition duration-300 ease-in-out cursor-pointer text-xs sm:text-base'>
-      <div className='flex gap-3 items-center'>
-        <img src={imageSrc} alt={imageType} className='w-[16px] h-[16px]'/>
+    <button className='rounded-full md:py-3 py-2  lg:px-10 md:px-8 sm:px-7 px-4 gradient2 transition duration-300 ease-in-out cursor-pointer text-xs sm:text-base'>
+      <div className='flex sm:gap-3 gap-2 items-center'>
+        <img src={imageSrc} alt={imageType} className='size-4'/>
         {label}
        </div>
     </button>

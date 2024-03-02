@@ -6,18 +6,18 @@ const Capstone = ({card}) => {
 
   return (
     <div className='rounded-3xl'>
-      <div className='container grid grid-cols-1 sm:grid-cols-2 gap-10 border-y-2 border-y-outline1 shadow-2 rounded-3xl py-10 sm:py-14 items-center'>
-        <div className={`rounded-3xl px-4 sm:px-12 pt-4 sm:pt-12 background-1 ${variant === 'primary' ? 'order-2' : 'order-1'}`}>
+      <div className='container grid grid-cols-1 sm:grid-cols-2 gap-10 border-y-2 border-y-outline1 shadow-2 rounded-3xl items-center lg:py-10 md:py-8 py-7'>
+        <div className={`rounded-3xl sm:px-12 px-5 sm:pt-12 pt-4 background-1 ${variant === 'primary' ? 'md:order-2' : 'md:order-1'}`}>
           <img src={image} alt={title1} />
         </div>
-        <div className={`${variant === 'primary' ? 'order-1' : 'order-2'}`}>
+        <div className={`${variant === 'primary' ? 'order-1' : 'order-2'} flex flex-col lg:gap-5 md:gap-4 gap-3`}>
           <div>
-            <p className='text-text1 italic p-gradient uppercase text-sm sm:text-base md:text-xl lg:text-2xl'>{title1}</p>
+            <p className='text-text1 italic p-gradient uppercase lg:text-2xl md:text-xl sm:text-base text-sm'>{title1}</p>
           </div>
-          <h2 className='h-gradient font-bold text-2xl sm:text-3xl md:text-4xl mt-4 '>{title2}</h2>
-          <p className='text-text1 text-sm sm:text-base md:text-xl lg:text-2xl mt-6 sm:mt-8 lg:mt-10'>{content}</p>
+          <h2 className='h-gradient font-bold md:text-4xl sm:text-2xl text-xl'>{title2}</h2>
+          <p className='text-text1 lg:text-2xl md:text-xl sm:text-base text-sm lg:mt-5 md:mt-3 mt-2'>{content}</p>
           <a href={link} target='_blank'>
-            <div className='mt-5'>
+            <div className=''>
               <Button type='primary' label='Visit Site' />
             </div>
           </a>
