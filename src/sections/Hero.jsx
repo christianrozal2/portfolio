@@ -12,7 +12,7 @@ const Hero = () => {
       <div className='container px-0 flex md:flex-row flex-col-reverse gap-10 items-center md:text-left text-center'>
           <div className='md:w-7/12 flex flex-col lg:gap-5 md:gap-4 gap-3'>
             <div className='inline-flex gap-3 items-center gradient2text mx-auto md:mx-0'>
-              <img loading='lazy' src={union} alt="union" className='md:size-7 size-5'/>
+              <img src={union} alt="union" className='md:size-7 size-5'/>
               <h2 className='font-semibold lg:text-xl md:text-lg sm:text-md text-sm'>Welcome to my Portfolio</h2>
             </div>
             <h1 className='font-bold lg:text-7xl md:text-6xl sm:text-5xl text-3xl'>
@@ -27,12 +27,12 @@ const Hero = () => {
               <a href="">
                 <div className='flex justify-center md:justify-start'>
                   <p className='hover:text-text1 lg:text-2xl md:text-xl sm:text-lg text-sm'>Download Resume</p>
-                  <img loading='lazy' src={arrow} alt="arrow" />
+                  <img src={arrow} alt="arrow" />
                 </div>
               </a>
           </div>
           <div className='md:ml-auto'>
-              <img loading='lazy' src={hero} alt="hero" className='md:max-w-[400px] sm:max-w-[350px] max-w-[250px]'/>
+              <img src={hero} alt="hero" className='md:max-w-[400px] sm:max-w-[350px] max-w-[250px]'/>
               <div className="absolute z-[-1] size-[30%] top-0 pink__gradient"></div>
               <div className="absolute z-[-1] md:size-[400px] sm:size-[350px] size-[250px] top-32 purple__gradient"></div>
           </div>
