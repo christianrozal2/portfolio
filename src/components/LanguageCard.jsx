@@ -22,11 +22,11 @@ const LanguageCard = ({card}) => {
                         <p className='sm:text-base text-sm'>
                             Check documentation
                         </p>
-                        <img src={arrow} alt="arrow" className='size-6'/>
+                        <img loading='lazy' src={arrow} alt="arrow" className='size-6'/>
                     </div>
             </div>
             <div className='self-end w-[100%]'>
-                <img src={image} alt={title} />
+                <img loading='lazy' src={image} alt={title} />
             </div>
         </div>
     </a>

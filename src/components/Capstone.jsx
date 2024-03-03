@@ -8,7 +8,7 @@ const Capstone = ({card}) => {
     <div className='rounded-3xl'>
       <div className='container grid grid-cols-1 sm:grid-cols-2 gap-10 border-y-2 border-y-outline1 shadow-2 rounded-3xl items-center lg:py-10 md:py-8 py-7'>
         <div className={`rounded-3xl sm:px-12 px-5 sm:pt-12 pt-4 background-1 ${variant === 'primary' ? 'md:order-2' : 'md:order-1'}`}>
-          <img src={image} alt={title1} />
+          <img loading='lazy' src={image} alt={title1} />
         </div>
         <div className={`${variant === 'primary' ? 'order-1' : 'order-2'} flex flex-col lg:gap-5 md:gap-4 gap-3`}>
           <div>

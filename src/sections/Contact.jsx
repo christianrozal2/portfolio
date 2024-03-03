@@ -11,11 +11,11 @@ const Contact = () => {
           <div className='sm:w-[50%] flex flex-col sm:items-start items-center'>
           <h3 className='text-text1 uppercase lg:text-2xl md:text-xl sm:text-lg'>Let's Connect!</h3>
             <div className='flex md:flex-row flex-col gap-3 mt-10 sm:items-start items-center'>
-              <img src={contact} alt="contact" className='max-w-[200px] max-h-[200px]'/>
+              <img loading='lazy' src={contact} alt="contact" className='max-w-[200px] max-h-[200px]'/>
                 <div className='flex flex-col gap-3 my-auto'>
                   {contactInfo.map((index) => (
                     <div key={index} className='flex gap-3'>
-                      <img src={index.image} alt={index.title} className='size-[30px]' />
+                      <img loading='lazy' src={index.image} alt={index.title} className='size-[30px]' />
                       <div className='flex flex-col gap-1'>
                         <p className='md:text-lg sm:text-base text-sm'>{index.title}</p>
                       </div>

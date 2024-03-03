@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='flex gap-5 opacity-90'>
         {footerInfo.map((index) => (
           <a href={index.link} target='_blank'>
-            <img key={index.id} src={index.image} alt={index.id} className='sm:size-7 size-6' />
+            <img loading='lazy' key={index.id} src={index.image} alt={index.id} className='sm:size-7 size-6' />
           </a>
         ))}
       </div>

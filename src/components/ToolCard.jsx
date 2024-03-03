@@ -12,13 +12,13 @@ const ToolCard = ({card}) => {
           
           <div className='flex flex-col items-center p-8'>
               <div className='rounded-full bg-hover1 p-10'>
-                  <img src={image} alt={title1} className='sm:w-[80px] w-[60px]' />
+                  <img loading='lazy' src={image} alt={title1} className='sm:w-[80px] w-[60px]' />
               </div>
               <h1 className='font-bold mt-5 uppercase textGradient sm:text-base text-sm'>{title2}</h1>
               <p className='text-text1 italic sm:text-base text-sm'>{developer}</p>
               <div className='bg-body py-2 w-full rounded-lg mt-3 flex justify-center items-center'>
                   <p className='sm:text-base text-sm'>Learn More</p>
-                  <img src={arrow} alt="arrow" className='sm:size-6 size-5'/>
+                  <img loading='lazy' src={arrow} alt="arrow" className='sm:size-6 size-5'/>
               </div>
           </div>
       </div>
