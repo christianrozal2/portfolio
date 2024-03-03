@@ -26,7 +26,7 @@ const LanguageCard = ({card}) => {
                     </div>
             </div>
             <div className='self-end w-[100%]'>
-                <img loading='lazy' src={image} alt={title} />
+                <img loading='lazy' src={image} alt={title} className='size-auto'/>
             </div>
         </div>
     </a>
