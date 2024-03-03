@@ -27,7 +27,7 @@ const Hero = () => {
               <a href="">
                 <div className='flex justify-center md:justify-start'>
                   <p className='hover:text-text1 lg:text-2xl md:text-xl sm:text-lg text-sm'>Download Resume</p>
-                  <img src={arrow} alt="arrow" />
+                  <img src={arrow} alt="arrow" className='size-6' />
                 </div>
               </a>
           </div>
