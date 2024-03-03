@@ -1,4 +1,4 @@
-import { address, cap1, css, ct1, ct2, ct3, ct4, ct5, ct6, ct7, ct8, ct9, facebook, html, javascript, linkedin, mail, mobile, ot1, ot2, ot3, ot4, ot5, ot6, ot7, p1, p2, p3, p4, pinterest, telegram, twitter } from "../assets/assets";
+import { address, cap1, cap2, cap3, css, ct1, ct2, ct3, ct4, ct5, ct6, ct7, ct8, ct9, facebook, html, javascript, linkedin, mail, mobile, ot1, ot2, ot3, ot4, ot5, ot6, ot7, p1, p2, p3, p4, pinterest, telegram, twitter } from "../assets/assets";
 
 export const navLinks = [
   {
@@ -50,7 +50,7 @@ export const capstone = [
     title1: "Capstone 2: Backend",
     title2: "E-COMMERCE API",
     content: "Robust e-commerce backend API built with Node.js, Express, and MongoDB for efficient data management. Thoroughly tested with Postman to ensure reliability and seamless integration.",
-    image: cap1,
+    image: cap2,
     variant: "",
     link: "https://ecommerce-gadgethub-api.onrender.com/"
   },
@@ -59,7 +59,7 @@ export const capstone = [
     title1: "Capstone 3: Fullstack",
     title2: "E-COMMERCE GADGET HUB",
     content: "My MERN stack capstone project delivers a seamless user experience with its clean aesthetic, bug-free functionality, and lightning-fast performance. Built for efficiency and visual appeal.",
-    image: cap1,
+    image: cap3,
     variant: "primary",
     link: "https://ecommerce-gadgethub.vercel.app/"
   }, 

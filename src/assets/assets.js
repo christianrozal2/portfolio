@@ -1,5 +1,7 @@
 export { default as hero } from './hero.webp'
 export { default as cap1 } from './cap1.webp'
+export { default as cap2 } from './cap2.webp'
+export { default as cap3 } from './cap3.webp'
 export { default as p1 } from './p1.webp'
 export { default as p2 } from './p2.webp'
 export { default as p3 } from './p3.webp'
