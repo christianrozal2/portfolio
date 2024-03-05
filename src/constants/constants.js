@@ -72,8 +72,8 @@ export const frontend = [
     id: "p4",
     image: p4,
     title: "#4 - Wonder Chat",
-    subtitle: "React + Tailwind CSS",
-    description: "A fully responsive landing page. WonderChat lets you create a custom AI chatbot trained on your own information for immediate, personalized conversations.",
+    subtitle: "React + Tailwind CSS + Figma",
+    description: "The first fully responsive frontend project that I coded on my own from a Figma design.",
     date: "18-02-24",
     link:"https://wonderchat-eta.vercel.app/"
   },
@@ -82,7 +82,7 @@ export const frontend = [
     image: p3,
     title: "#3 - Hoobank Landing",
     subtitle: "React + Tailwind CSS",
-    description: "A fully responsive landing page. Hoobank leads the way in modern payments, offering a superior alternative to traditional banking methods with its advanced technology and user-friendly approach.",
+    description: "A fully responsive landing page from a modern UI/UX tutorial in youtube.",
     date: "15-02-24",
     link: "https://hoobank-five-beta.vercel.app/"
   },
@@ -91,7 +91,7 @@ export const frontend = [
     image: p2,
     title: "#2 - Movie Land",
     subtitle: "React + External CSS",
-    description: "A fully responsive page. MovieLand helps you find the right movie for any mood, with powerful search tools, curated recommendations, and a vast library of films to explore.",
+    description: "A fully responsive landing page from a React.js tutorial in youtube.",
     date: "12-02-24",
     link: "https://movieland-one-iota.vercel.app/"
   },
@@ -100,7 +100,7 @@ export const frontend = [
     image: p1,
     title: "#1 - Nike Landing",
     subtitle: "React + Tailwind CSS",
-    description: "A fully responsive landing page. Discover the latest in performance footwear and apparel, fueled by decades of innovation and designed to help you reach your next level.",
+    description: "A fully responsive landing page from a Tailwind CSS tutorial in youtube.",
     date: "09-02-24",
     link: "https://nike-landing-one.vercel.app/"
   }
