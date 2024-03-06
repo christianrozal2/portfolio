@@ -12,7 +12,7 @@ const Hero = () => {
       <div className='container px-0 flex md:flex-row flex-col-reverse gap-10 items-center md:text-left text-center'>
           <div className='md:w-7/12 flex flex-col lg:gap-5 md:gap-4 gap-3'>
             <div className='inline-flex gap-3 items-center gradient2text mx-auto md:mx-0'>
-              <img src={union} alt="union" className='md:h-[26px] w-auto h-[20px]'/>
+              <img src={union} alt="union" className='md:h-[26px] md:w-[28px] h-[20px] w-[22px]'/>
               <h2 className='font-semibold lg:text-xl md:text-lg sm:text-md text-sm'>Welcome to my Portfolio</h2>
             </div>
             <h1 className='font-bold lg:text-7xl md:text-6xl sm:text-5xl text-3xl'>
