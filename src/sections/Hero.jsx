@@ -27,7 +27,7 @@ const Hero = () => {
               <a href="">
                 <a href='https://drive.google.com/file/d/1YuqH5wee_3Kchs7aLMcCPaxtBxArHNX7/view?usp=sharing' target='_blank' className='flex justify-center md:justify-start items-center'>
                   <p className='hover:text-gray-400 lg:text-2xl md:text-xl sm:text-lg text-sm'>Download Resume</p>
-                  <img src={arrow} alt="arrow" className='size-6' />
+                  <img src={arrow} alt="arrow" className='h-[24px] w-[24px]' />
                 </a>
               </a>
           </div>
