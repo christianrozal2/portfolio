@@ -1,4 +1,4 @@
-import { address, cap1, cap2, cap3, css, ct1, ct2, ct3, ct4, ct5, ct6, ct7, ct8, ct9, facebook, html, javascript, linkedin, mail, mobile, ot1, ot2, ot3, ot4, ot5, ot6, ot7, p1, p2, p3, p4, pinterest, telegram, twitter } from "../assets/assets";
+import { address, cap1, cap2, cap3, css, ct1, ct10, ct11, ct2, ct3, ct4, ct5, ct6, ct7, ct8, ct9, facebook, html, javascript, linkedin, mail, mobile, ot1, ot2, ot3, ot4, ot5, ot6, ot7, p1, p2, p3, p4, pinterest, telegram, twitter } from "../assets/assets";
 
 export const navLinks = [
   {
@@ -114,7 +114,7 @@ export const language = [
     image: html,
     title: "HTML",
     subtitle: "The Web's Skeleton",
-    description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    description: "HTML is the foundational language that defines the structure and content of web pages.",
     link: "https://www.w3schools.com/html/html_intro.asp"
   },
   {
@@ -122,7 +122,7 @@ export const language = [
     image: css,
     title: "CSS",
     subtitle: "The Web's Stylist",
-    description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    description: "CSS is the language used to style and format the visual appearance of web pages built with HTML. ",
     link: "https://www.w3schools.com/css/css_intro.asp"
   },
  
@@ -131,7 +131,7 @@ export const language = [
     image: javascript,
     title: "JAVASCRIPT",
     subtitle: "Making the Web Interactive",
-    description: "By providing the link or PDF file to your knowledge base, you can build an AI chatbot that learns from the text on your website and answers all the questions about your product.",
+    description: "JavaScript is a programming language that brings web pages to life. It makes web pages dynamic and interactive.",
     link: "https://www.w3schools.com/js/js_intro.asp"
   }
 ];
@@ -209,6 +209,22 @@ export const coreTools = [
     title2: "Postman",
     developer: "Abhinav Asthana, et al.",
     link: "https://www.postman.com/"
+  },
+  {
+    id: "ct10",
+    image: ct10,
+    title1: "Deployment",
+    title2: "Vercel",
+    developer: "Vercel Inc.",
+    link: "https://vercel.com/"
+  },
+  {
+    id: "ct11",
+    image: ct11,
+    title1: "Deployment",
+    title2: "Render",
+    developer: "Render",
+    link: "https://render.com/"
   },
   
 ];
