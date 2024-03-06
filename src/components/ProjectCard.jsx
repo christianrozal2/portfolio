@@ -11,9 +11,9 @@ const ProjectCard = ({ card }) => {
             <h3 className='sm:text-lg text-base'>{title}</h3>
             <img loading='lazy' src={check} alt="check" className='size-5'/>
           </div>
-          <p className='text-text1 mt-1 text-center italic sm:text-base text-sm'>{subtitle}</p>
+          <p className='text-gray-400 mt-1 text-center italic sm:text-base text-sm'>{subtitle}</p>
           <div className='flex flex-col mt-3 gap-5'>
-            <p className='text-text1 sm:text-base text-sm'>{description}</p>
+            <p className='text-gray-400 sm:text-base text-sm'>{description}</p>
           </div>
         </div>
         <p className='italic sm:text-base text-sm'>Date posted: {date}</p>

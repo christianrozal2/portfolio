@@ -14,7 +14,7 @@ const LanguageCard = ({card}) => {
                     <h4 className='italic sm:text-lg text-base'>
                         {subtitle}
                     </h4>
-                    <p className='text-text1 sm:text-base text-sm'>
+                    <p className='text-gray-400 sm:text-base text-sm'>
                         {description}
                     </p>
                 </div>

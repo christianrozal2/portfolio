@@ -20,7 +20,7 @@ const Navbar = () => {
                 <ul className='flex gap-10 sm:text-base text-sm'>
                     {navLinks.map((link) => (
                         <li key={link.id}>
-                            <a href={link.id} className='cursor-pointer navlink transition duration-300 ease-in-out hover:text-text1'>
+                            <a href={link.id} className='cursor-pointer navlink transition duration-300 ease-in-out hover:text-gray-400'>
                                 {link.title}
                             </a>
                         </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <ul className='absolute top-20 md:right-14 sm:right-12 right-6 w-[180px] text-center md:hidden flex flex-col sm:gap-10 ss:gap-7 gap-5 sm:text-base text-sm bg-container p-5 opacity-90 border-y-2 border-y-outline1'>
                     {navLinks.map((link) => (
                         <li key={link.id}>
-                            <a href={link.id} className='cursor-pointer navlink transition duration-300 ease-in-out hover:text-text1'>
+                            <a href={link.id} className='cursor-pointer navlink transition duration-300 ease-in-out hover:text-gray-400'>
                                 {link.title}
                             </a>
                         </li>

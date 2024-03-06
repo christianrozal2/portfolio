@@ -15,7 +15,7 @@ const ToolCard = ({card}) => {
                   <img loading='lazy' src={image} alt={title1} className='sm:w-[80px] w-[60px] h-auto' />
               </div>
               <h1 className='font-bold mt-5 uppercase textGradient sm:text-base text-sm'>{title2}</h1>
-              <p className='text-text1 italic sm:text-base text-sm'>{developer}</p>
+              <p className='text-gray-400 italic sm:text-base text-sm'>{developer}</p>
               <div className='bg-body py-2 w-full rounded-lg mt-3 flex justify-center items-center'>
                   <p className='sm:text-base text-sm'>Learn More</p>
                   <img loading='lazy' src={arrow} alt="arrow" className='sm:size-6 size-5'/>

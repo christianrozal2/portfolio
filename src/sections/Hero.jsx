@@ -22,11 +22,11 @@ const Hero = () => {
                 </span>
               ))}
             </h1>
-              <p className='font-bold text-text1 lg:text-4xl md:text-3xl sm:text-2xl text-xl'>Full-stack Web Developer</p>
-              <p className='text-text1 lg:text-2xl md:text-xl sm:text-lg text-sm lg:mt-5 md:mt-3 mt-2'>Christian Rozal is a skilled Full-stack Web Developer known for expertise in both front-end and back-end technologies. With a passion for creating dynamic and user-friendly web applications, Christian brings a comprehensive skill set to the field of web development.</p>
+              <p className='font-bold text-gray-400 lg:text-4xl md:text-3xl sm:text-2xl text-xl'>Full-stack Web Developer</p>
+              <p className='text-gray-400 lg:text-2xl md:text-xl sm:text-lg text-sm lg:mt-5 md:mt-3 mt-2'>Christian Rozal is a skilled Full-stack Web Developer known for expertise in both front-end and back-end technologies. With a passion for creating dynamic and user-friendly web applications, Christian brings a comprehensive skill set to the field of web development.</p>
               <a href="">
                 <a href='https://drive.google.com/file/d/1YuqH5wee_3Kchs7aLMcCPaxtBxArHNX7/view?usp=sharing' target='_blank' className='flex justify-center md:justify-start items-center'>
-                  <p className='hover:text-text1 lg:text-2xl md:text-xl sm:text-lg text-sm'>Download Resume</p>
+                  <p className='hover:text-gray-400 lg:text-2xl md:text-xl sm:text-lg text-sm'>Download Resume</p>
                   <img src={arrow} alt="arrow" className='size-6' />
                 </a>
               </a>

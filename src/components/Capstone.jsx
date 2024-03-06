@@ -12,10 +12,10 @@ const Capstone = ({card}) => {
         </div>
         <div className={`${variant === 'primary' ? 'order-1' : 'order-2'} flex flex-col lg:gap-5 md:gap-4 gap-3`}>
           <div>
-            <p className='text-text1 italic p-gradient uppercase lg:text-2xl md:text-xl sm:text-base text-sm'>{title1}</p>
+            <p className='text-gray-400 italic p-gradient uppercase lg:text-2xl md:text-xl sm:text-base text-sm'>{title1}</p>
           </div>
           <h2 className='h-gradient font-bold md:text-4xl sm:text-2xl text-xl'>{title2}</h2>
-          <p className='text-text1 lg:text-2xl md:text-xl sm:text-base text-sm lg:mt-5 md:mt-3 mt-2'>{content}</p>
+          <p className='text-gray-400 lg:text-2xl md:text-xl sm:text-base text-sm lg:mt-5 md:mt-3 mt-2'>{content}</p>
           <a href={link} target='_blank'>
             <div className=''>
               <Button type='primary' label='Visit Site' />

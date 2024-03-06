@@ -9,7 +9,7 @@ const Contact = () => {
         <h2 className='h-gradient font-bold md:text-4xl sm:text-3xl text-2xl'>CONTACT</h2>
         <div className='lg:mt-10 md:mt-8 mt-7 flex gap-10 sm:flex-row flex-col'>
           <div className='sm:w-[50%] flex flex-col sm:items-start items-center'>
-          <h3 className='text-text1 uppercase lg:text-2xl md:text-xl sm:text-lg'>Let's Connect!</h3>
+          <h3 className='text-gray-400 uppercase lg:text-2xl md:text-xl sm:text-lg'>Let's Connect!</h3>
             <div className='flex md:flex-row flex-col gap-3 mt-10 sm:items-start items-center'>
               <img loading='lazy' src={contact} alt="contact" className='max-w-[200px] max-h-[200px]'/>
                 <div className='flex flex-col gap-3 my-auto'>
@@ -26,11 +26,11 @@ const Contact = () => {
                 </div>
             </div>
             <div>
-              <h3 className='mt-10 text-text1 italic text-center lg:text-3xl md:text-2xl sm:text-xl text-lg'>"Let's work together to find the perfect solution."</h3>
+              <h3 className='mt-10 text-gray-400 italic text-center lg:text-3xl md:text-2xl sm:text-xl text-lg'>"Let's work together to find the perfect solution."</h3>
             </div>
           </div>
           <div className='sm:w-[50%] '>
-            <h3 className='text-text1 uppercase lg:text-2xl md:text-xl sm:text-lg'>Message ME</h3>
+            <h3 className='text-gray-400 uppercase lg:text-2xl md:text-xl sm:text-lg'>Message ME</h3>
             <form className='mt-10 sm:text-base text-sm'>
               <div className='flex flex-col'>
                 <label htmlFor='name'>Name</label>
